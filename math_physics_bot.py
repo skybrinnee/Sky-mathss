@@ -29,7 +29,7 @@ async def solve_equation(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Sorry, I couldn't solve this. Make sure the equation is valid.")
 
 def main():
-    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+    TOKEN = "8741935482:AAF3rA92OLaJXGnhNQXa_q97zJuMqJDMVsE"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
